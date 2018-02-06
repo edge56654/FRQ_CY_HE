@@ -11,11 +11,7 @@ public class Range implements NumberGroup{
         this.max=max;
     }
     
-    /*
-    public boolean contains(int num){
-        return num >= min && num <= max;
-    }
-    */
+    
     
    
     //Theoretical boolean statement contains if MultipleGroups is already provided
@@ -27,4 +23,10 @@ public class Range implements NumberGroup{
         }
         return false;
     }
+    
+   
+    public boolean contains(int num){
+        return num >= min && num <= max;
+    }
+    
 }
