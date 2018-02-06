@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Range
+comment1.params=min\ max
+comment1.target=Range(int,\ int)
+comment2.params=num
+comment2.target=boolean\ contains(int)
+comment2.text=\r\n\ \ \ \ public\ boolean\ contains(int\ num){\r\n\ \ \ \ \ \ \ \ return\ num\ >\=\ min\ &&\ num\ <\=\ max;\r\n\ \ \ \ }\r\n
+numComments=3
